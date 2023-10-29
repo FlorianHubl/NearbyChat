@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		170BB1D2297FDE5100B1FC9D /* TextData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 170BB1D1297FDE5100B1FC9D /* TextData.swift */; };
+		1759E7E12977F081002E331D /* LocalStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1759E7E02977F081002E331D /* LocalStorage */; };
+		1759E7E32977F097002E331D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1759E7E22977F097002E331D /* ContentView.swift */; };
+		17875C1D296DF834003D83C5 /* NearbyChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17875C1C296DF834003D83C5 /* NearbyChatApp.swift */; };
+		17875C21296DF83F003D83C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17875C20296DF83F003D83C5 /* Assets.xcassets */; };
+		17875C24296DF83F003D83C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17875C23296DF83F003D83C5 /* Preview Assets.xcassets */; };
+		17875C2D296DF89F003D83C5 /* MultiPeerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17875C2A296DF89E003D83C5 /* MultiPeerDelegate.swift */; };
+		17875C2E296DF89F003D83C5 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17875C2B296DF89E003D83C5 /* MessageView.swift */; };
+		17875C2F296DF89F003D83C5 /* NearbyChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17875C2C296DF89E003D83C5 /* NearbyChatView.swift */; };
+		17875C32296DF8BA003D83C5 /* MultiPeer in Frameworks */ = {isa = PBXBuildFile; productRef = 17875C31296DF8BA003D83C5 /* MultiPeer */; };
+		17875C34296DF90C003D83C5 /* MakePhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17875C33296DF90C003D83C5 /* MakePhotoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		170BB1D1297FDE5100B1FC9D /* TextData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextData.swift; sourceTree = "<group>"; };
+		1759E7E22977F097002E331D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		17875C19296DF834003D83C5 /* NearbyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearbyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17875C1C296DF834003D83C5 /* NearbyChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyChatApp.swift; sourceTree = "<group>"; };
+		17875C20296DF83F003D83C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17875C23296DF83F003D83C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17875C2A296DF89E003D83C5 /* MultiPeerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiPeerDelegate.swift; sourceTree = "<group>"; };
+		17875C2B296DF89E003D83C5 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		17875C2C296DF89E003D83C5 /* NearbyChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyChatView.swift; sourceTree = "<group>"; };
+		17875C33296DF90C003D83C5 /* MakePhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakePhotoView.swift; sourceTree = "<group>"; };
+		17875C35296DF9E2003D83C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		17FC6F4F2AEE6F30000597A6 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		17FC6F542AEE7105000597A6 /* Screenvideo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Screenvideo.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17875C16296DF834003D83C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1759E7E12977F081002E331D /* LocalStorage in Frameworks */,
+				17875C32296DF8BA003D83C5 /* MultiPeer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17875C10296DF834003D83C5 = {
+			isa = PBXGroup;
+			children = (
+				17FC6F4F2AEE6F30000597A6 /* README.md */,
+				17FC6F542AEE7105000597A6 /* Screenvideo.gif */,
+				17875C1B296DF834003D83C5 /* NearbyChat */,
+				17875C1A296DF834003D83C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17875C1A296DF834003D83C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17875C19296DF834003D83C5 /* NearbyChat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17875C1B296DF834003D83C5 /* NearbyChat */ = {
+			isa = PBXGroup;
+			children = (
+				17875C35296DF9E2003D83C5 /* Info.plist */,
+				1759E7E22977F097002E331D /* ContentView.swift */,
+				170BB1D1297FDE5100B1FC9D /* TextData.swift */,
+				17875C1C296DF834003D83C5 /* NearbyChatApp.swift */,
+				17875C2C296DF89E003D83C5 /* NearbyChatView.swift */,
+				17875C33296DF90C003D83C5 /* MakePhotoView.swift */,
+				17875C2B296DF89E003D83C5 /* MessageView.swift */,
+				17875C2A296DF89E003D83C5 /* MultiPeerDelegate.swift */,
+				17875C20296DF83F003D83C5 /* Assets.xcassets */,
+				17875C22296DF83F003D83C5 /* Preview Content */,
+			);
+			path = NearbyChat;
+			sourceTree = "<group>";
+		};
+		17875C22296DF83F003D83C5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17875C23296DF83F003D83C5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17875C18296DF834003D83C5 /* NearbyChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17875C27296DF83F003D83C5 /* Build configuration list for PBXNativeTarget "NearbyChat" */;
+			buildPhases = (
+				17875C15296DF834003D83C5 /* Sources */,
+				17875C16296DF834003D83C5 /* Frameworks */,
+				17875C17296DF834003D83C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearbyChat;
+			packageProductDependencies = (
+				17875C31296DF8BA003D83C5 /* MultiPeer */,
+				1759E7E02977F081002E331D /* LocalStorage */,
+			);
+			productName = NearbyChat;
+			productReference = 17875C19296DF834003D83C5 /* NearbyChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17875C11296DF834003D83C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					17875C18296DF834003D83C5 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 17875C14296DF834003D83C5 /* Build configuration list for PBXProject "NearbyChat" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17875C10296DF834003D83C5;
+			packageReferences = (
+				17875C30296DF8BA003D83C5 /* XCRemoteSwiftPackageReference "MultiPeer" */,
+				1759E7DF2977F081002E331D /* XCRemoteSwiftPackageReference "LocalStorage" */,
+			);
+			productRefGroup = 17875C1A296DF834003D83C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17875C18296DF834003D83C5 /* NearbyChat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17875C17296DF834003D83C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17875C24296DF83F003D83C5 /* Preview Assets.xcassets in Resources */,
+				17875C21296DF83F003D83C5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17875C15296DF834003D83C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				170BB1D2297FDE5100B1FC9D /* TextData.swift in Sources */,
+				17875C2E296DF89F003D83C5 /* MessageView.swift in Sources */,
+				17875C2F296DF89F003D83C5 /* NearbyChatView.swift in Sources */,
+				1759E7E32977F097002E331D /* ContentView.swift in Sources */,
+				17875C34296DF90C003D83C5 /* MakePhotoView.swift in Sources */,
+				17875C2D296DF89F003D83C5 /* MultiPeerDelegate.swift in Sources */,
+				17875C1D296DF834003D83C5 /* NearbyChatApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17875C25296DF83F003D83C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17875C26296DF83F003D83C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17875C28296DF83F003D83C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NearbyChat/Preview Content\"";
+				DEVELOPMENT_TEAM = L8V639LZ4B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NearbyChat/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The needs the camera to take photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FlorianHubl.ChatGPTDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17875C29296DF83F003D83C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NearbyChat/Preview Content\"";
+				DEVELOPMENT_TEAM = L8V639LZ4B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NearbyChat/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "The needs the camera to take photos.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = FlorianHubl.ChatGPTDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17875C14296DF834003D83C5 /* Build configuration list for PBXProject "NearbyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17875C25296DF83F003D83C5 /* Debug */,
+				17875C26296DF83F003D83C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17875C27296DF83F003D83C5 /* Build configuration list for PBXNativeTarget "NearbyChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17875C28296DF83F003D83C5 /* Debug */,
+				17875C29296DF83F003D83C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1759E7DF2977F081002E331D /* XCRemoteSwiftPackageReference "LocalStorage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/FlorianHubl/LocalStorage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		17875C30296DF8BA003D83C5 /* XCRemoteSwiftPackageReference "MultiPeer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dingwilson/MultiPeer.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1759E7E02977F081002E331D /* LocalStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1759E7DF2977F081002E331D /* XCRemoteSwiftPackageReference "LocalStorage" */;
+			productName = LocalStorage;
+		};
+		17875C31296DF8BA003D83C5 /* MultiPeer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17875C30296DF8BA003D83C5 /* XCRemoteSwiftPackageReference "MultiPeer" */;
+			productName = MultiPeer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 17875C11296DF834003D83C5 /* Project object */;
+}
